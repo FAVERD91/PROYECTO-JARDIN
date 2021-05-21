@@ -1,0 +1,350 @@
+@import url('slider.css');
+@import url('formulario.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+      background-color: ghostwhite;
+  }
+  header {
+    width: 100%;
+    height: 130px;
+    padding: 5px;
+
+  }
+
+.ancho{
+      width: 80%;
+      height: 120px;
+      margin: auto;
+  }
+
+  .logo{
+      width: 33%;
+      height: 120px;  
+      float: left;
+  }
+
+  nav{
+      width: 67%;
+      height: 120px;
+      float: right;
+      text-align: right;
+      padding-top: 45px;
+  }
+
+  nav ul li{
+      display: inline;
+  }
+
+  nav ul li a{
+      color: black;
+      font-size: 14px;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding-right: 25px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-family: 'Lancelot';
+  }
+
+  nav ul li a:hover{
+      color: rgb(17, 99, 250);
+  }
+
+  @font-face{
+      font-family: 'Lancelot', cursive;
+      src: url('/FONT/Lancelot-Regular.ttf') format('truetype');
+  }
+
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.ab{
+    width: 90%;
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+}
+
+.az{
+    float: left;
+    height: 100vh;
+    width: 40%;
+    margin: auto;
+}
+
+#mensaje{
+    text-align: center;
+    background: url(https://irp-cdn.multiscreensite.com/e5427893/DESKTOP/png/356f454.png?sitetimestamp=636801467650000000);
+    height: 850px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#mensaje h2{
+    font-size: 38px;
+    font-family: 'Lancelot';
+    font-weight: bolder;
+    text-align: center;
+}
+
+p{
+    font-family: 'Lancelot';
+    font-size: 30px;
+    text-align: left;
+    line-height: 30px;
+}
+
+#salones{
+    text-align: center;
+    background: url(https://irp-cdn.multiscreensite.com/e5427893/DESKTOP/png/369f454.png?sitetimestamp=636801467650000000);
+    background-position: bottom right;
+    height: 1500px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#salones1{
+  text-align: center;
+  background: url(https://irp-cdn.multiscreensite.com/e5427893/DESKTOP/png/369f454.png?sitetimestamp=636801467650000000);
+  background-position: bottom right;
+  height: 890px;
+  width: 1200px;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+#salones h2{
+    font-size: 50px;
+    font-family: 'Lancelot';
+    font-weight: bolder;
+}
+
+p{
+    font-family: 'Lancelot';
+    font-size: 25px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.imagen{
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+	height: 88vh;
+	background-image: url(../IMAGENES/985.jpg);
+    
+}
+
+td, th{
+    
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Lancelot';
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.footer-basic {
+    padding:20px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+  .img1 {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .img1 {
+    top: 30px;
+    left: -200px;
+    min-width: 200px;
+    width: 200px;
+    min-height: 1240px;
+    height: 1240px;
+    display: block;
+    z-index: 77;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  
+  #sal{
+    text-align: center;
+    height: 20px;
+    width: 1100px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.img2 {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.img2 {
+  top: 30px;
+  right: 990px;
+  min-width: 180px;
+  width: 180px;
+  min-height: 1230px;
+  height: 1230px;
+  display: block;
+  z-index: 79;
+  overflow: hidden;
+  float: right;
+}
+
+.aa{
+  text-align: center;
+  color:#273746;
+}
+
+.aa h2{
+  font-family: 'Lancelot';
+  font-size: 34px;
+}
+
+.am{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+.am div{
+  width: 50%;
+  padding: 10px;
+}
+.am >div:first-child{
+  margin-right: 20px;
+}
+
+.image{
+  width: 550px;
+  height: 320px;
+}
+
+.img11 {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.img11 {
+  top: 30px;
+  left: -100px;
+  min-width: 300px;
+  width: 300px;
+  min-height: 1240px;
+  height: 1240px;
+  display: block;
+  z-index: 777;
+  overflow: hidden;
+  margin: 180px 0;
+}
+
+#servicios{
+  text-align: center;
+  padding-top: 55px;
+  font-family: 'Lancelot';
+}
+#serv1{
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  border: 5px solid #CB4335;
+  border-radius: 15px;
+  background: url(http://www.jardincasitadesuenos.com/gallery_gen/57e1795a61a53461aa0740c3b399ab41_284x410.22222222222.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+
+#serv1 h4{
+  text-align: left;
+  font-weight: bold;
+}
+
+p{
+  text-align: justify;
+  font-family: 'Lancelot';
+  font-size: 26px;
+}
+
+.li{
+  text-align: left;
+  padding-left: 5px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #273746;
+  text-decoration: none;
+}
+
+.formulario{
+  text-align: center;
+  margin: auto;
+
+}
